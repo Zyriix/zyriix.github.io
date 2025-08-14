@@ -7,3 +7,23 @@
 
 "Vision":
   color: "#009f36"
+
+"ICML":
+  url: https://icml.cc/
+  color: "#ff6b6b"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#4ecdc4"
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#45b7d1"
+
+"AAAI":
+  url: https://aaai.org/
+  color: "#96ceb4"
+
+"IJCAI":
+  url: https://ijcai.org/
+  color: "#feca57"

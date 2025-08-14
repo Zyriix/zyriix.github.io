@@ -195,6 +195,15 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
+  /* 移动设备上的照片样式 */
+  img {
+    width: 60%;  /* 移动设备上照片宽度 */
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem auto;  /* 居中显示 */
+  }
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -217,7 +226,17 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 15%;  /* 调整照片容器宽度: 20%-40% */
+    max-width: 250px;  /* 设置最大宽度限制 */
+
+    img {
+      width: 100%;
+      height: auto;
+      /* 可添加以下选项控制照片样式 */
+      /* border-radius: 50%; */ /* 圆形照片 */
+      /* border: 3px solid #ddd; */ /* 添加边框 */
+      /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */ /* 添加阴影 */
+    }
 
     .address {
       p {
